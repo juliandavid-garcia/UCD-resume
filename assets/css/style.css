@@ -17,7 +17,24 @@
 .ui-menu-color-download{
     background-color:#525252;
 }
+/*------Special/padding /margin and texts*/
+
+h1,h2,h3,h4, {
+    margin: 0;
+}
+
+.uppercase{
+     text-transform: uppercase;
+}
+
+.general-sub {
+font-family: "exo", sans-serif;
+font-weight: 300;
+color:#fafafa;
+}
+
 /*------Heading*/
+
 header {
     margin:0;  
 }
@@ -98,3 +115,13 @@ font-size: 0;
  background: rgba(0, 0, 0, 0.1);
  height: 120px;
 }
+
+/*------Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
