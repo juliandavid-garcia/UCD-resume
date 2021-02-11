@@ -11,6 +11,9 @@
 .bg-color-personal-info{
 background-color: #f4f4f4;
 }
+.bg-color-work-history{
+     background-color:#9b596b;
+}
 .ui-menu-color-home{
     background-color:#e67e22;
 }
@@ -23,6 +26,7 @@ background-color: #f4f4f4;
 .ui-menu-color-download{
     background-color:#525252;
 }
+
 
 /*------Special/padding /margin and texts*/
 
@@ -51,6 +55,7 @@ display:table;
      padding:0 30px 30px;
      float:none;
 }
+.history-heading,
 .section-heading{
 font-family:"exo", sans-serif;
 font-weight: 300;
@@ -133,6 +138,9 @@ font-size: 0;
     font-size:14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+
 }
 /*------Hover*/
 .hvr-sweep-to-bottom:before {
@@ -245,4 +253,42 @@ font-weight: 400;
 .progress-section{
     margin:40px 20px;
 }
- 
+/*------Work history*/
+ .history-heading{
+color:#fafafa;
+margin-bottom: 50px;
+ }
+.timeline-item{
+padding:4em 2em 0em 2em;
+position:relative;
+color:#fafafa;
+border-left: 1px solid;
+ }
+.timeline-item p{
+ padding:0;
+margin:0;
+}
+.timeline-item:before{
+    content:attr(data-dates);
+    position:absolute;
+    left: 2.5em;
+    top: 3em;
+    display:block;
+    font-family: "exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+.timeline-item:after{
+    width:12px;
+    height:12px;
+    display:block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content:'' ;
+    background: #fafafa;
+}
+.history-items{
+    margin-bottom: 30px;
+}
